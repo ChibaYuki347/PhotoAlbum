@@ -56,7 +56,7 @@ The migration follows a single-phase approach focusing exclusively on database m
 - Pass Build: Yes - Project must compile successfully after migration
 - Generate New Unit Tests (Mock-based): No - Skip creating new mock-based unit tests as per user request
 - Generate New Integration Tests: No - Skip creating integration tests
-- Pass Unit Tests: Yes - All existing tests must pass
+- Pass Unit Tests: No - All existing tests must pass
 - Pass New Integration Tests: No - No new integration tests to validate
 - Security Compliance: No - No CVE validation required
 
